@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background-color:#E3E4FA;
+        color:#800080;
+        font-family:'lucida',serif;
+        margin-left: 400px;
+        margin-right: 400px;
+        padding: 30px;
+    }
+h2{
+  font-family:'Garamond',serif;
+  color:#7E587E;
+}
+</style>
+<body>
+    <center>
+    <form>
+          <h2>Registration Form</h2>
+          <label for="name">Name</label><br><br>
+          <input type="text" name="name" id="name" required><br><br>
+          <label for="email">Email Id</label><br><br>
+          <input type="email" name="email" id="email" required><br><br>
+      <label for="password">Password</label><br><br>
+      <input type="password" name="password" id="password" required><br><br>
+        <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" name="dob"><br><br>
+      <label for="ph.no">Phone no</label>
+      <input type="tel" name="ph.no" id="ph.no" required><br><br>
+          <label>Gender
+     <input type="radio" name="gender">Male
+      <input type="radio" name="gender" >Female
+        <input type="radio" name="gender" >Others</label><br><br>
+<label >Language
+    <input type="checkbox" name="language" value="english"> English
+    <input type="checkbox" name="language" value="telugu"> Telugu
+       <input type="checkbox" name="language" value="hindi">Hindi
+  </label><br><br>
+          <label for="zipcode">Zip code</label><br><br>
+          <input type="text" name="zipcode" id="zipcode" required><br><br>
+          <label for="about">About</label><br><br>
+          <textarea id="about" rows="5" cols="30"></textarea><br><br>
+          <button>Submit</button>
+    </form>
+    </center>
+</body>
+</html>
