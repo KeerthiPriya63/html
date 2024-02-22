@@ -1,12 +1,12 @@
 body{
     text-align: center;
+    background:linear-gradient(to bottom,#e0e6f4,##d3e0ea, #c7d9e1);
 }
 header{
-    background-color:black;
     padding: 10px;
 }
 header h2{
-    color: aliceblue;
+    color: black;
     font-family:"fantasy";
 }
 nav ul li{
@@ -18,7 +18,7 @@ nav ul li:hover{
 }
 nav ul li a{
     text-decoration: none;
-    color: burlywood;
+    color: black;
 }
 nav ul li{
   font-family: 'Baskerville', serif;
@@ -34,19 +34,12 @@ nav ul li{
 #Home p{
     word-spacing: 10px;
   font-family:"cursive";
-  background-color: #CCCCFF
-}
-#Bio{
-  background-color: #BDEDFF
 }
 #Bio h2{
   font-family: "fantasy";
 }
 #Skills h2{
   font-family:"fantasy";
-}
-#Contact{
-  background-color: #CCCCFF
 }
 #Contact h2{
   font-family:"fantasy";
@@ -56,11 +49,10 @@ li{
     padding: 10px;
 }
 footer{
-    background-color: black;
     padding: 20px;
 }
 footer p{
-    color: aliceblue;
+    color: black;
 }
 #Bio pre{
     line-height:20px;
