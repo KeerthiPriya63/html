@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+}
+header{
+    background-color:black;
+    padding: 10px;
+}
+header h2{
+    color: aliceblue;
+    font-family:"fantasy";
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+nav ul li:hover{
+  background-color:  antiquewhite;
+}
+nav ul li a{
+    text-decoration: none;
+    color: burlywood;
+}
+nav ul li{
+  font-family: 'Baskerville', serif;
+}
+#Home img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+#Home h2{
+  font-family:"serif";
+}
+#Home p{
+    word-spacing: 10px;
+  font-family:"cursive";
+  background-color: #CCCCFF
+}
+#Bio{
+  background-color: #BDEDFF
+}
+#Bio h2{
+  font-family: "fantasy";
+}
+#Skills h2{
+  font-family:"fantasy";
+}
+#Contact{
+  background-color: #CCCCFF
+}
+#Contact h2{
+  font-family:"fantasy";
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer p{
+    color: aliceblue;
+}
+#Bio pre{
+    line-height:20px;
+    word-spacing: 5px;
+}
